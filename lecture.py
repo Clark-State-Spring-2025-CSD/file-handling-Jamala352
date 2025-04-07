@@ -39,7 +39,13 @@ avg = sum / count
 
 print(f"The sum is {avg}.")
 print(f"The number of evens is {evenCount} and odds is {oddCount}.")
-print(f"The number of 1's is {oneCount} with expected being {count / 20}") #1 in twenty chance
-print(f"The number of 20's is {twentyCount} with expected being {count / 20}") #1 in twenty chance
+print(f"The number of 1's is {oneCount} with expected being {count / 20}") 
+print(f"The number of 20's is {twentyCount} with expected being {count / 20}") 
     
+print(f"The average is {avg:.2f}.")
 
+print(f"The sum of all numbers is {sum}.")
+print(f"The average is {avg:.2f}.")
+print(f"The number of even numbers is {evenCount}, and odd numbers is {oddCount}.")
+print(f"The number of '1's is {oneCount}, with expected being {count / 20:.2f}.") 
+print(f"The number of '20's is {twentyCount}, with expected being {count / 20:.2f}.")
